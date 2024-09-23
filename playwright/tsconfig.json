@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": ["DOM", "esnext"],
+    "allowJs": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "paths": {
+      "@/*": ["../playwright/*", "../src/*"]
+    }
+  },
+  "include": ["**/*.ts"]
+}
